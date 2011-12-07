@@ -110,7 +110,8 @@
                         (statement-case-intro . +) ; case w/o {
                         (access-label . /)
                         (innamespace . 0)
-                        (arglist-cont-nonempty . ++)))
+                        (arglist-cont-nonempty . ++)
+                        (annotation-var-cont . 0)))
     (c-block-comment-prefix . "*"))
   "Custom Java Programming Style")
 
