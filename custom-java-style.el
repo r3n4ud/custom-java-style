@@ -110,6 +110,7 @@
                         (statement-case-intro . +) ; case w/o {
                         (access-label . /)
                         (innamespace . 0)
+                        (arglist-intro . ++)
                         (arglist-cont-nonempty . ++)
                         (annotation-var-cont . 0)))
     (c-block-comment-prefix . "*"))
