@@ -121,7 +121,7 @@
   (interactive)
   (make-local-variable 'c-tab-always-indent)
   (setq c-tab-always-indent t)
-  (c-toggle-auto-newline 1)
+  (c-toggle-auto-newline 0)
   (c-add-style "custom-java-style" custom-java-style t))
 
 (defun custom-make-newline-indent ()
